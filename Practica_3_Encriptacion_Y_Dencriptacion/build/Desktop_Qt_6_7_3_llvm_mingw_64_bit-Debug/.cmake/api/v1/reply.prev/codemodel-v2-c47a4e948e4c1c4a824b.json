@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9008295d609eef9ad1ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Practica_3_Encriptacion_Y_Dencriptacion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Practica_3_Encriptacion_Y_Dencriptacion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practica_3_Encriptacion_Y_Dencriptacion-Debug-4296796579f46445a29c.json",
+					"name" : "Practica_3_Encriptacion_Y_Dencriptacion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/esteb/OneDrive/Escritorio/info 2/Practica_3_Encriptacion_Y_Dencriptacion/build/Desktop_Qt_6_7_3_llvm_mingw_64_bit-Debug",
+		"source" : "C:/Users/esteb/OneDrive/Escritorio/info 2/Practica_3_Encriptacion_Y_Dencriptacion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

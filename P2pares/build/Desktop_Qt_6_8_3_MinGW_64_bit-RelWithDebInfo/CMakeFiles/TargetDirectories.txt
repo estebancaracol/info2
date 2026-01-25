@@ -1,0 +1,7 @@
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/P2pares.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/edit_cache.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/rebuild_cache.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/list_install_components.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install/local.dir
+C:/Users/esteb/OneDrive/Escritorio/info 2/P2pares/build/Desktop_Qt_6_8_3_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install/strip.dir

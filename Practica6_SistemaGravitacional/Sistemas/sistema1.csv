@@ -1,0 +1,4 @@
+nombre,x,y,masa,radio,vx,vy
+Cuerpo1,0,-7000,70,120,2,0
+Cuerpo2,0,0,70000,300,0,0
+Cuerpo3,4000,5000,25,100,-1.6,1.2

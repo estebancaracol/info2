@@ -1,0 +1,8 @@
+A,B,C,D,E,F,G
+A->B:A-B;5
+A->C:A-C;3
+B->D:B-D;10
+B->E:B-E;2
+F->E:F-E;1
+G->F:G-F;2
+

@@ -1,0 +1,13 @@
+A,C,D,E,F,G,H,I
+A->C:A-C;15
+A->D:A-D;9
+A->H:A-H;9
+C->E:C-E;2
+C->G:C-G;1
+C->H:C-H;5
+D->E:D-E;1
+D->F:D-F;7
+E->F:E-F;3
+F->H:F-H;3
+G->I:G-I;4
+H->I:H-I;11

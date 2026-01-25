@@ -1,0 +1,90 @@
+ARCHIVOS DEL SISTEMA - ESPECIFICACIONES Y ESTRUCTURA
+==================================================
+
+1. ARCHIVO DE ANFITRIONES (anfitriones.txt)
+-------------------------------------------
+• Total: 9 anfitriones
+• Todos con contraseña "1234"
+• Estructura por línea: Nombre|Documento|Contraseña|N° Hospedajes|Rating
+• Distribución especial:
+  - Juanita Rodriguez (doc 12345678) en 5ta posición
+  - 3 anfitriones con 3 hospedajes c/u
+  - 5 anfitriones con 1 hospedaje c/u
+
+2. ARCHIVO DE HOSPEDAJES (hospedajes.txt)
+-----------------------------------------
+• Total: 17 hospedajes exactos
+• Estructura por línea: 
+  Código|Nombre|Doc Anfitrión|Depto|Municipio|Tipo|Dirección|Precio|Servicios
+• Distribución especial:
+  - 15 en Medellín
+  - 1 en Rionegro (administrado por George)
+  - 1 en Copacabana (sin reservaciones)
+  - Juanita administra exactamente 3
+
+3. ARCHIVO DE HUÉSPEDES (huespedes.txt)
+---------------------------------------
+• Total: 10 huéspedes
+• Todos con contraseña "1234"
+• Estructura por línea: Nombre|Documento|Contraseña|N° Reservas|Rating
+• Distribución especial:
+  - George Zerpa (doc 17654321) con 3 reservas
+  - 3 huéspedes sin reservaciones
+  - Resto con 1-2 reservas c/u
+
+4. ARCHIVO DE RESERVACIONES (reservaciones.txt)
+----------------------------------------------
+• Total: 17 reservas vigentes
+• Estructura por línea: 
+  CódigoRES|FechaInicio|Noches|CódigoAlojamiento|DocHuesped|MedioPago|FechaPago|Total|Comentarios
+• Código formato: RES-X-YYYYZ (X=número, YYYY=4 dígitos, Z=letra mayúscula)
+• Distribución temporal:
+  - 3 para George en fechas específicas
+  - 3 entre jul-dic 2024
+  - 1 en alojamiento de Juanita (23-25 dic 2024)
+  - 10 entre ene-may 2025
+• Restricciones:
+  - Ninguna reserva en Copacabana
+  - Juanita sin reservas 16-21 dic 2024
+
+5. ARCHIVO HISTÓRICO (historico.txt)
+-----------------------------------
+• Total: 10 reservas finalizadas
+• Estructura igual a reservaciones.txt
+• Distribución temporal:
+  - 4 reservas en 2023
+  - 6 reservas feb-may 2024
+• Orden: Descendente por fecha
+
+CONTROL DE CAMBIOS IMPORTANTES
+------------------------------
+1. En hospedajes.txt:
+   - ALO-8-C en Rionegro (requerimiento George)
+   - ALO-17-H en Copacabana sin reservas
+
+2. En reservaciones.txt:
+   - RES-2-GZ en Rionegro (20-23 ene 2025)
+   - RES-7-PED en alojamiento de Juanita (23-25 dic)
+
+3. En historico.txt:
+   - Orden descendente garantizado
+   - Exactamente 4 en 2023 y 6 en feb-may 2024
+
+VALIDACIONES CLAVE
+------------------
+✓ Juanita tiene exactamente 3 hospedajes
+✓ George Zerpa tiene exactamente 3 reservas
+✓ 3 huéspedes sin reservaciones
+✓ Copacabana sin reservas asociadas
+✓ 17 hospedajes y 17 reservas vigentes
+✓ 10 reservas históricas correctamente distribuidas
+
+
+alojamiento 
+#codigo|Nombre|DocANF|Departamento|Municipio|Direccion|Precio|amenidades
+anfitriones 
+#Nombre|Documento|Contraseña|antiguedad|puntuacion
+huéspedes
+#Nombre|Documento|Contraseña|antiguedad|puntuacion
+reservaciones
+#codigo|FechaRes|CodigoALJ|DocHUE|TP|FechaPago|PrecioPagado|anotaciones
